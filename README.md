@@ -40,13 +40,13 @@ Lo scenario che abbiamo immaginato è il seguente, ma è importante notare che *
 
 ### Viktec API ###
 * Realizzazione di un API (GET e POST) con Node JS e relativa [documentazione](https://app.swaggerhub.com/apis/viktec/Viktecnews/1.0.0#/):
-   * Acquisizione di dati come news e recensioni da un sito in particolare, il quale mettono a disposizione OpenData tra cui:
+   * Acquisizione di dati come news e recensioni da un sito in particolare, il quale mette a disposizione OpenData tra cui:
      * [**Viktec** - Sito di recensioni e news di tecnologia](https://viktec.net/)
 
 
    * Gli step dell'algoritmo per l'acquisizione dei dati sul Json Viktec, sono i seguenti:
      1. Effettuta una richiesta HTTP per accedere ai dati desiderati
-     2. Effettuta il parsing dei dati ricevuti attraverso l'opportuna funziona
+     2. Effettuta il parsing dei dati ricevuti attraverso l'opportuna funzione
      
 
    * Gli step dell'algoritmo della POST degli articoli sono i seguenti:
