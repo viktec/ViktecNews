@@ -6,7 +6,7 @@
 ### Appello: ###
 * Primo appello sessione estiva 2018/2019
 
-### Alunni: ###
+### Alunno: ###
 * [Vittorio Russo](https://github.com/viktec)
 * Matricola : 284038
 
