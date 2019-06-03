@@ -25,7 +25,7 @@ Il progetto ViktecNews si pone come obiettivi primari:
 
 Il progetto è composto da 3 obiettivi principali:
  * Realizzazione di un API (GET e POST) in Node JS
- * Piattaforma Web online 
+ * Piattaforma Web online sviluppato con Wordpress e offre API
  * Implementazione di un BotTelegram Node JS
  
 Altri obiettivi secondari:
