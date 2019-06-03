@@ -63,7 +63,7 @@ Il file server.js, package.json e file .env( per chiave token bot) sono stati ca
 
 ### ViktecNews_Bot ###
 <div>
-<img src="img/viktecnews-start.png" width="200px" align="left"/>
+<img src="immagini/viktecnews-start.png" width="200px" align="left"/>
 
 ViktecNews è il bot pensato per gli utenti che leggono news e recensioni direttamente dal bot invece di usare il Client Web.
 Il bot permettere di scaricare le ultime dieci news, recensioni, guide e games da Telegram sfruttando le API di Viktec.
@@ -76,7 +76,7 @@ I comandi che il bot mette a disposizione sono i seguenti:
       * news : restituirà le ultime dieci news pubblicate sul client Web
       * recensioni : restituirà le ultime dieci recensioni pubblicate sul client Web
 	   <div> 
-<img src="img/viktecnews-info.png" width="200px" align="right"/>
+<img src="immagini/viktecnews-info.png" width="200px" align="right"/>
       * guide : restituirà le ultime dieci guide pubblicate sul client Web
       * games : restituirà gli ultimi dieci articoli di games pubblicate sul client Web
       * info : informazioni generali sul Bot e contatto dell'autore
