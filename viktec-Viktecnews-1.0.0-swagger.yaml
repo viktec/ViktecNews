@@ -1,0 +1,83 @@
+openapi: 3.0.0
+servers:
+  - url: 'https://glitch.com/~viktecnews'
+info: 
+  description: ViktecNews API per l'invio di news, recensioni e guide             sul mondo della tecnologia
+  version: "1.0.0"
+  title: ViktecNews API
+  contact:
+    email: v.russo15@campus.uniurb.it
+  license:
+    name: GNU General Public License v3.0
+    url: 'http://www.gnu.org/licenses/gpl-3.0.txt'
+tags:
+  - name: Public
+    description: API accesso libero
+  - name: Utenti Registrati
+    description: API utilizzabile da utenti della piattaforma
+paths:
+  /wp-json/wp/v2/posts :
+    get:
+      tags:
+        - Public
+      summary: ricerca dieci ultime news
+      operationId: cerca news
+      description: >
+        Scarica le ultime dieci news dal file JSON
+      parameters:
+        - in: path
+          name: Title
+          description: Titolo della news
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: link
+          description: Link dell'articolo
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Array di oggetti news
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/posts/'
+        '400':
+          description: Errore nella richiesta
+components:
+schemas:
+    posts:
+      type: object
+        properties:
+          model:
+           type: string
+          example: api.damage
+        fields:
+          properties:
+            damage_dsc:
+              type: string
+              example: description...
+            user:
+              type: string
+              example: Utente 5
+            date:
+              type: string
+              example: '2016-08-29T09:12:33.001Z'
+            lat:
+              type: number
+              example: 43.3347319
+            lon:
+              type: number
+              example: 12.9039728
+            damage_photo:
+              type: string
+              example: 78b650ae-4ebc-4715-b550-a224229544a1.jpeg
+          type: object
+        pk:
+          type: integer
+          format: int32
+          example: 9
