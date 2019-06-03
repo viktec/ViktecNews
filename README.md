@@ -75,11 +75,10 @@ I comandi che il bot mette a disposizione sono i seguenti:
   * utilizzo della keyboard : la tastiera viene ripetuta per ogni output, si può scegliere tra news, recensioni, guide, games e info. 
       * news : restituirà le ultime dieci news pubblicate sul client Web
       * recensioni : restituirà le ultime dieci recensioni pubblicate sul client Web
-	   <div> 
-<img src="immagini/viktecnews-info.png" width="200px" align="right"/>
       * guide : restituirà le ultime dieci guide pubblicate sul client Web
       * games : restituirà gli ultimi dieci articoli di games pubblicate sul client Web
-      * info : informazioni generali sul Bot e contatto dell'autore
+      * info : informazioni generali sul Bot e contatto dell'autore  <div> 
+<img src="immagini/viktecnews-info.png" width="200px" align="right"/>
   
  
 </div><br>
